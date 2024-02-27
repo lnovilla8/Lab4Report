@@ -12,6 +12,7 @@ Step 6:
 Used ```cd lab7``` to change directory into lab7 to access test repository files. Ran ```bash test.sh``` to run ```ListExamplesTests.java```.
 
 Step 7:
+
 ![IMAGE](step7vim.png)
 ![IMAGE](step7.png)
 Error is that in merge method's 3rd while loop, ```index1``` is being incremented instead of ```index2``` for ```list2```. Used ```vim ListExamples.java``` to edit file. Typed ```43j``` to get onto 44th line. Pressed ```e``` to get cursor onto ```"2"```, pressed ```<shift> R ``` to go into replace mode, typed 1, pressed ```<esc>``` to go into normal mode. Finished by typing ```:wq!``` to save and close file.
